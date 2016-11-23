@@ -1,0 +1,29 @@
+body {
+  background: #252525; }
+
+header {
+  margin: 50px 0 0 0; }
+  header div {
+    display: flex;
+    justify-content: space-around; }
+  header nav ul {
+    margin: 200px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition-duration: 0.5s; }
+    header nav ul li {
+      font-family: "Open Sans", roboto, arial;
+      color: #FFFFFF;
+      font-size: 26px;
+      text-transform: uppercase;
+      transition: all ease-in-out 0.5s; }
+      header nav ul li a {
+        color: #FFFFFF;
+        text-decoration: none; }
+
+.not-hovered {
+  text-decoration: line-through;
+  transition-duration: 0.5s; }
+
+/*# sourceMappingURL=style.css.map */
